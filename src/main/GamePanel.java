@@ -1,12 +1,15 @@
 package main;
 
 import java.awt.Graphics;
-
 import javax.swing.JPanel;
+
+import Inputs.KeyboardInputs;
 
 public class GamePanel extends JPanel{
 	
 	public GamePanel() {
+		
+		addKeyListener(new KeyboardInputs());
 		
 	}
 	//method in JPanel
