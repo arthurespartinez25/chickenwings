@@ -32,6 +32,7 @@ public class KeyboardInputs implements KeyListener{
 
 	@Override
 	public void keyReleased(KeyEvent e) {
+		System.out.println("here");
 		
 	}
 
